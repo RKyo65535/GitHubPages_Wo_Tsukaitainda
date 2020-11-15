@@ -1,4 +1,6 @@
-
+html {
+	background-color: #f5c9c6;
+}
 
 .wrapper {
 	display: grid;
