@@ -17,12 +17,12 @@ const updateImageUrl = () => {
 
 const masterImage = document.querySelector("#MasterImage");
 
-document.querySelector("#forwordButton").addEventListener("click", function () {
+document.querySelector("#forwordButton").addEventListener("click", () => {
   incrementImageNum();
   updateImageUrl();
 });
 
-document.querySelector("#backButton").addEventListener("click", function () {
+document.querySelector("#backButton").addEventListener("click", () => {
   decrementImageNum();
   updateImageUrl();
 });
