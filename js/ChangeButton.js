@@ -1,5 +1,5 @@
 let imageNum = 0;
-const masterImage = document.getElementById("MasterImage");
+const masterImage = document.querySelector("#MasterImage");
 
 const getImageUrl = () => `image/artwork/ariawase/Item${imageNum}.png`
 
