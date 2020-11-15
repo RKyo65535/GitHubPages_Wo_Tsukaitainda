@@ -1,5 +1,5 @@
-var imageNum = 0;
-var imageURL = "image/artwork/ariawase/Item";
+let imageNum = 0;
+const imageURL = "image/artwork/ariawase/Item";
 
 function forwordButton() {
 
