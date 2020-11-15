@@ -1,14 +1,28 @@
-var imageNum = 0;
-var imageURL = "image/artwork/ariawase/Item";
+const totalImageCount = 100;
+let imageNum = 0;
 
-function forwordButton() {
+const incrementImageNum = () => {
+  imageNum = (imageNum + 1) % 100;
+};
 
-	imageNum =(imageNum + 1)%100;
-	document.getElementById("MasterImage").src = imageURL + imageNum + ".png";
-}
+const decrementImageNum = () => {
+  imageNum = (imageNum - 1 + totalImageCount) % 100;
+};
 
-function backButton() {
+const getImageUrl = () => `image/artwork/ariawase/Item${imageNum}.png`;
 
-	imageNum = (imageNum + 99) % 100;
-	document.getElementById("MasterImage").src = imageURL + imageNum + ".png";
-}
+const updateImageUrl = () => {
+  masterImage.src = getImageUrl();
+};
+
+const masterImage = document.querySelector("#MasterImage");
+
+document.querySelector("#forwordButton").addEventListener("click", () => {
+  incrementImageNum();
+  updateImageUrl();
+});
+
+document.querySelector("#backButton").addEventListener("click", () => {
+  decrementImageNum();
+  updateImageUrl();
+});
