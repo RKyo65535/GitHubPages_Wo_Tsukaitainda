@@ -9,10 +9,6 @@ html {
 	grid-gap: 10px;
 }
 
-h1{
-	color:aqua
-}
-
 .box1 {
 	background-color: yellowgreen;
 	grid-column: 2 / 4;
@@ -27,9 +23,44 @@ h1{
 
 .box3 {
 	background-color: firebrick;
-	grid-row: 2/100;
+	grid-row: 2/50;
 	grid-column: 3;
 }
+
+
+.changeImageContainer {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 20px;
+}
+
+.CICLeftbox {
+	text-align: center;
+	background-color: aqua;
+	grid-row: 3;
+	grid-column: 1;
+}
+
+.CICRightbox {
+	text-align: center;
+	background-color: peru;
+	grid-row: 3;
+	grid-column: 5;
+}
+
+.CICCenterbox {
+	text-align: center;
+	background-color: floralwhite;
+	grid-row: 1/6;
+	grid-column: 2/5;
+}
+
+
+h1{
+	color:aqua
+}
+
+
 
 img.box1 {
 	height: 50%;
