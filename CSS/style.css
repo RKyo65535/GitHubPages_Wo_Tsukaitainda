@@ -113,10 +113,13 @@ body {
 }
 
 
-.gameBox {
+.gameTitleBox {
 	background-color: aquamarine;
 }
-
+.gameExplainBox {
+	background-color: aquamarine;
+	font-size: 70%;
+}
 
 .changeImageContainer {
 	display: grid;
