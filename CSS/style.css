@@ -116,10 +116,22 @@ body {
 .gameTitleBox {
 	background-color: aquamarine;
 }
+
+img.gameTitleBox {
+	height: 100%;
+	width: 100%;
+	object-fit: scale-down;
+}
+
 .gameExplainBox {
 	background-color: aquamarine;
 	font-size: 70%;
+
 }
+
+
+
+
 
 .changeImageContainer {
 	display: grid;
