@@ -26,3 +26,8 @@ document.querySelector("#backButton").addEventListener("click", () => {
   decrementImageNum();
   updateImageUrl();
 });
+
+document.oncontextmenu = () => {
+	window.alert('このページでは右クリックが奨励されています！！');
+	return true;//右クリック奨励
+}

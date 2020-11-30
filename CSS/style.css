@@ -94,13 +94,27 @@ body {
 .box2 {
 	background-color: palevioletred;
 	grid-column: 1;
-	grid-row: 1 / 3;
+	grid-row: 1 / 10;
 }
 
 .box3 {
 	background-color: firebrick;
 	grid-column: 3;
 	grid-row: 2/50;
+}
+
+
+
+.gamesWrapper {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: minmax(100px,auto);
+	grid-gap: 10px;
+}
+
+
+.gameBox {
+	background-color: aquamarine;
 }
 
 
