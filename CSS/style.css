@@ -161,6 +161,10 @@ img.gameTitleBox {
 }
 
 
+img.CICCenterbox {
+	object-fit: scale-down;
+}
+
 h1{
 	color:aqua
 }
@@ -202,5 +206,22 @@ img.box3 {
 	to {
 		filter: hue-rotate(360deg);
 	}
+}
+
+
+.artWorksContainer {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	grid-gap: 5px;
+}
+
+.artWorkBlock {
+	background-color: whitesmoke;
+}
+img.artWorkBlock {
+	width: 100%;
+	height: 100%;
+	object-fit: scale-down;
 }
 
