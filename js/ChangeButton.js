@@ -1,6 +1,11 @@
 const totalImageCount = 100;
 let imageNum = 0;
 
+document.addEventListener("contextmenu", () => {
+	window.alert('このページでは右クリックが奨励されています！！');
+	return true;//右クリック奨励
+});
+
 const incrementImageNum = () => {
   imageNum = (imageNum + 1) % 100;
 };
@@ -27,7 +32,4 @@ document.querySelector("#backButton").addEventListener("click", () => {
   updateImageUrl();
 });
 
-document.oncontextmenu = () => {
-	window.alert('このページでは右クリックが奨励されています！！');
-	return true;//右クリック奨励
-}
+
