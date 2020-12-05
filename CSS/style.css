@@ -1,6 +1,6 @@
 html {
 	background-color: #f5c9c6;
-	font-size: 3vw;
+	font-size: 1vw;
 }
 
 
@@ -15,7 +15,7 @@ body {
 	background-color: seagreen;
 	animation: RotateShadow 1s linear infinite;
 	text-align: center;
-	font-size: 220%;
+	font-size: 600%;
 	grid-column: 1 / 6;
 	grid-row: 1/3;
 }
