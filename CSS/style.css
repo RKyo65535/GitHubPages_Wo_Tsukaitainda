@@ -218,10 +218,16 @@ img.box3 {
 
 .artWorkBlock {
 	background-color: whitesmoke;
+	transition-duration: 1s; 
 }
+
 img.artWorkBlock {
 	width: 100%;
 	height: 100%;
 	object-fit: scale-down;
 }
 
+.artWorkBlock img:hover {
+	/*transform: rotate(2turn);*/
+	transform: scale(3,3);
+}
