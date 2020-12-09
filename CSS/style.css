@@ -218,7 +218,7 @@ img.box3 {
 
 .artWorkBlock {
 	background-color: whitesmoke;
-	transition-duration: 1s; 
+	transition-duration: 1s;
 }
 
 img.artWorkBlock {
@@ -228,5 +228,22 @@ img.artWorkBlock {
 }
 
 .artWorkBlock img:hover {
-	transform: scale(2,2) /* rotate(1turn)*/;
+	/*transform: scale(2,2) rotate(1turn);*/
+	animation: artAnimation 1s ease 0s forwards;
+}
+
+@keyframes artAnimation {
+	0% {
+		transform: scale(1,1);
+		
+	}
+
+	25% {
+		transform: scale(1.25) rotate(360deg);
+		background: #ff6a00;
+	}
+
+	100% {
+		transform: scale(2,2) rotate(360deg);
+	}
 }
