@@ -228,6 +228,5 @@ img.artWorkBlock {
 }
 
 .artWorkBlock img:hover {
-	/*transform: rotate(2turn);*/
-	transform: scale(3,3);
+	transform: scale(2,2) /* rotate(1turn)*/;
 }
