@@ -135,7 +135,8 @@ img.gameTitleBox {
 
 .changeImageContainer {
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(5, 2fr);
+	grid-template-rows: auto;
 	grid-gap: 20px;
 }
 
@@ -153,15 +154,25 @@ img.gameTitleBox {
 	grid-column: 5;
 }
 
-.CICCenterbox {
+.CICCenterTextbox {
 	text-align: center;
-	background-color: floralwhite;
-	grid-row: 1/6;
+	background-color: white;
+	grid-row: 1;
+	grid-column: 2/5;
+}
+
+.CICCenterImagebox {
+	text-align: center;
+	background-color: white;
+	grid-row: 2/6;
 	grid-column: 2/5;
 }
 
 
-img.CICCenterbox {
+img.CICCenterImagebox {
+	width: 100%;
+	height: 100%;
+	animation: HueRotate 1s linear infinite;
 	object-fit: scale-down;
 }
 
@@ -190,13 +201,6 @@ img.box3 {
 }
 
 
-
-.imgGaming {
-	width: 100%;
-	height: 100%;
-	animation: HueRotate 1s linear infinite;
-	object-fit: scale-down;
-}
 
 @keyframes HueRotate {
 	from {
