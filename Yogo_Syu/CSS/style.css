@@ -1,0 +1,30 @@
+.explanationMain {
+    background-color: #faeceb; /*è≠ÇµîñÇ¢ê‘*/
+    font-size: 100%;
+    grid-column: 1 / 6;
+    grid-row: 3/40;
+}
+
+.yogoWrapper {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(50px,auto);
+    padding: 5px;
+    grid-gap: 5px;
+}
+
+.yogoEven {
+    background-color: #fad0fa;
+}
+.yogoOdd {
+    background-color: #f995f9;
+}
+
+.yogoTitle {
+    font-size: 100%;
+}
+.yogoText {
+    font-size: 80%;
+}
+
+

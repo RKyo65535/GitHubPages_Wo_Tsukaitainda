@@ -27,15 +27,17 @@ body {
 	grid-row: 3/40;
 }
 
+
+
 .leftside {
-	background-color: #ef8fa7; /*è≠ÇµîZÇ¢ê‘*/
+	background-color: #e74676; /*äÑÇ∆îZÇ¢ê‘*/
 	font-size: 100%;
 	grid-column: 1;
 	grid-row: 3/40;
 }
 
 .rightside {
-	background-color: #e74676; /*äÑÇ∆îZÇ¢ê‘*/
+	background-color: #ef8fa7; /*è≠ÇµîZÇ¢ê‘*/
 	font-size: 100%;
 	grid-column: 5;
 	grid-row: 3/40;
