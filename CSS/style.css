@@ -253,3 +253,24 @@ img.artWorkBlock {
 		transform: scale(2,2) rotate(360deg);
 	}
 }
+
+
+
+.miniquizWrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: minmax(50px,auto);
+	padding: 5px;
+	grid-gap: 5px;
+	background-color: #e3cdcc;
+}
+
+.buttonBox {
+	font-size: 71%;
+	background-color: #fad0fa;
+
+}
+
+.oneminiquizBOX {
+	background-color: #f1cac9;
+}
