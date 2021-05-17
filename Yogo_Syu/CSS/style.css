@@ -13,10 +13,10 @@
     grid-gap: 5px;
 }
 
-.yogoEven {
+.yogo:nth-child(even) {
     background-color: #fad0fa;
 }
-.yogoOdd {
+.yogo:nth-child(odd) {
     background-color: #f995f9;
 }
 
